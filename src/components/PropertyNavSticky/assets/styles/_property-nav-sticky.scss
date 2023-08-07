@@ -1,0 +1,80 @@
+@import '../../../../styles/inc/variable.css';
+
+.property-nav-sticky-wrapper {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16), 0px 2px 3px rgba(0, 0, 0, 0.08);
+    height: 74px;
+    background-color: var(--color-white);
+    z-index: 1035;
+
+    @media all and (max-width: $mobile) {
+        height: 57px;
+        overflow-x: auto;
+    }
+
+    .property-nav-sticky-list {
+        @media all and (max-width: $mobile) {
+            white-space: nowrap;
+        }
+
+        li {
+            margin-right: 74px;
+
+            @media all and (max-width: $screen-lg) {
+                margin-right: 48px;
+            }
+
+            @media all and (max-width: $mobile) {
+                margin-right: 32px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                font-family: var(--font-base);
+                @include fontsize(16px);
+                font-weight: var(--normal);
+                color: var(--color-dark3);
+                line-height: var(--line-height-secondary);
+                border-bottom: solid 1px transparent;
+                @include transition(all .3s ease);
+
+                &.active, &:hover {
+                    border-bottom: solid 3px var(--color-dark3);
+                    padding-bottom: 25px;
+
+                    @media all and (max-width: $screen-lg) {
+                        padding-bottom: 23px;
+                    }
+
+                    @media all and (max-width: $mobile) {
+                        padding-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .property-share-btn {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark3);
+        line-height: var(--line-height-secondary);
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+    &.property-details-template {
+        @media all and (max-width: $screen-lg8) {
+            height: 80px;
+        }
+
+        @media all and (max-width: $mobile) {
+            height: 70px;
+        }
+    }
+}

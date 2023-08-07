@@ -1,0 +1,114 @@
+@import '../../../../styles/inc/variable.css';
+
+.career-detail-intro-wrapper {
+    h1 {
+        color: var(--color-dark3);
+        @include fontsize(48px);
+        padding-bottom: 16px;
+
+        @media all and (max-width: $screen-lg) {
+            @include fontsize(40px);
+        }
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(32px);
+        }
+    }
+
+    .career-detail-position {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark5);
+        line-height: var(--line-height-secondary);
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+        }
+    }
+
+    ul {
+        padding-bottom: 24px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 40px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 16px;
+        }
+
+        li {
+            position: relative;
+            margin-right: 24px;
+
+            &:not(:last-child) {
+                margin-right: 24px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+
+                &::before {
+                    content: none;
+                }
+            }
+
+            &::before {
+                content: '/';
+                position: absolute;
+                top: 4px;
+                right: -14px;
+                color: var(--color-light-grey);
+                @include fontsize(16px);
+            }
+
+            .social-share-wrapper {
+                .property-share-social-icons {
+                    top: 0;
+                    left: 65px;
+                    right: auto;
+                }
+
+                .property-share-btn {
+                    font-family: var(--font-base);
+                    @include fontsize(16px);
+                    font-weight: var(--normal);
+                    color: var(--colo-dark5);
+                    line-height: var(--line-height-secondary);
+
+                    @media all and (max-width: $mobile) {
+                        @include fontsize(14px);
+                    }
+
+                    i {
+                        margin-right: 8px;
+                    }
+                }
+
+                .mobile-details-socila-share {
+                    @media all and (max-width: $mobile) {
+                        left: 0;
+                        right: auto;
+                        top: 23px;
+                    }
+                }
+            }
+        }
+    }
+
+    .button {
+        @include fontsize(16px);
+        height: 48px;
+        width: 199px;
+        margin-bottom: 24px;
+
+        @media all and (max-width: $screen-lg) {
+            margin-bottom: 40px;    
+        }
+
+        i {
+            margin-right: 9px;
+        }
+    }
+}

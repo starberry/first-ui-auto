@@ -1,0 +1,28 @@
+[
+    {
+        "sales": [
+            "For Sale",
+            "Sale Agreed",
+            "Under Offer",
+            "Sold Subject To Contract"
+        ],
+        "sales_sold": [
+            "For Sale",
+            "Sale Agreed",
+            "Under Offer",
+            "Sold Subject To Contract",
+            "Sold"
+        ]
+    },
+    {
+        "lettings": [
+            "To Let",
+            "Let"
+        ],
+        "lettings_agreed": [
+            "To Let",
+            "Let",
+            "Let Agreed"
+        ]
+    }
+]

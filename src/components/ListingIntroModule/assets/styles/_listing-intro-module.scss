@@ -1,0 +1,43 @@
+@import '../../../../styles/inc/variable.css';
+
+.listing-intro-wrapper {
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    @media all and (max-width: $screen-lg) {
+        padding-top: 48px;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    h1 {
+        color: var(--color-dark3);
+        padding-bottom: 24px;
+    }
+
+    p {
+        a {
+            color: var(--primary-color);
+
+            &:hover {
+                color: var(--color-dark2);
+            }
+        }
+    }
+}
+
+.areaguides-landing-wrapper,
+.careers-landing-wrapper {
+    .listing-intro-wrapper {
+        h1 {
+            @include fontsize(48px);
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(32px);
+            }
+        }
+    }
+}

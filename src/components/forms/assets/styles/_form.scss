@@ -1,0 +1,44 @@
+.newsletter, .stb-form {
+	.alert {
+		text-align: center;
+	}
+}
+.subscribe-terms-news-landing {
+	.enquiry-term-text {
+		margin-top: 0;
+		display: flex;
+		.subscribe-terms {
+			padding-top: 0;
+		}
+	}
+}
+
+.react-datepicker-wrapper {
+	width: 100%;
+}
+  
+.react-autosuggest__container--open {
+	position: relative;
+	.react-autosuggest__suggestions-container--open {
+		height: auto;
+		overflow: hidden;
+		position: absolute;
+		background: #fff;
+		width: 100%;
+		padding: 15px;
+		overflow-y: auto;
+		max-height: 200px;
+		box-shadow: 1px 1px 4px 1px #ccc;
+		z-index: 99999;
+		li {
+			border-bottom: 1px solid #e2e8f0;
+    		padding: 8px 16px;
+		}
+		.post-code-suggestion {
+			cursor: pointer;
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import '../../../../styles/inc/variable.css';
+
+.inner-detail-desc {
+    .areaguide-detail-accordion-wrapper {
+        p {
+            @include fontsize(16px);
+    
+            &:first-of-type {
+                @include fontsize(16px);
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+[build]
+  functions = "functions"
+  publish = "public"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    referrer-policy = "origin"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "max-age=604800"
+
+[build.environment]
+  NPM_CONFIG_USERCONFIG = ".npmrc"

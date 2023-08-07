@@ -1,0 +1,61 @@
+[
+    {
+      "element": "config",
+      "formname": "News Letter Subscription",
+      "error_text": "Highlighted fields are required",
+      "success_text": "Thank you for signing up for our monthly market updates, we hope you enjoy reading our latest news and updates.",
+      "email_temp_user": "newsletter_user",
+      "email_temp_admin": "newsletter_admin",
+      "email_subject_user": "Newsletter",
+      "email_subject_admin": "Newsletter",
+      "email_server_func": "newsletter",
+      "event_tracking": "Newsletter Subscription",
+      "page_url": "/newsletter"
+    },
+    {
+      "grpmd": "4",
+      "label": "",
+      "placeholder": "Name*",
+      "name": "name",
+      "type": "text",
+      "element": "input",
+      "required": true,
+      "patternchk": "^[-a-zA-Z0-9-()]+(\\s+[-a-zA-Z0-9-()]+)*$",
+      "fieldClass": "",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "4",
+      "label": "",
+      "placeholder": "Email Address*",
+      "name": "email",
+      "type": "email",
+      "element": "input",
+      "required": true,
+      "patternchk": "[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$",
+      "class": "",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "4",
+      "name": "Subscribe",
+      "type": "submit",
+      "element": "button",
+      "value": "submit",
+      "step": "col-md-4 text-center",
+      "class": "button button-primary btn",
+      "formclass": "",
+      "className": "theme-form-group"
+    },
+    {
+      "step": "col-md-12",
+      "text": "<div class='subscribe-terms'>By clicking Send Message, you agree to our <a href='/terms-and-condition/'>Terms & Conditions</a>  and  <a href='/privacy-policy/'> Privacy Policy </a>.</div>",
+      "element": "html",
+      "class": "enquiry-term-text text-center"
+    },
+    {
+      "element": "captcha",
+      "class": "py-2 captcha-class"
+    }
+]

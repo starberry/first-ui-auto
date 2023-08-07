@@ -1,0 +1,58 @@
+@import '../../../../styles/inc/variable.css';
+
+.new-homes-details-availability-wrapper {
+    border-top: solid 1px var(--color-light-grey);
+    padding-top: 80px;
+
+    @media all and (max-width: $screen-lg) {
+        padding-top: 48px;
+    }
+
+    .new-homes-details-heading {
+        @include fontsize(32px);
+        padding-bottom: 40px;
+    }
+
+    .new-homes-details-availability-table-wrapper {
+        .table {
+            background-color: var(--color-white);
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16), 0px 2px 3px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            margin-bottom: 0;
+
+            thead {
+                tr {
+                    th {
+                        font-family: var(--font-base);
+                        @include fontsize(14px);
+                        font-weight: var(--semi-bold);
+                        color: var(--color-dark6);
+                        line-height: var(--line-height-secondary);
+                        padding: 18px 24px;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    &:nth-of-type(odd) > * {
+                        --bs-table-accent-bg: var(--color-white);
+                    }
+
+                    td {
+                        font-family: var(--font-base);
+                        @include fontsize(16px);
+                        font-weight: var(--normal);
+                        color: var(--color-dark2);
+                        line-height: var(--line-height-secondary);
+                        padding: 18px 24px;
+
+                        a {
+                            @include fontsize(16px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

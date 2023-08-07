@@ -1,0 +1,53 @@
+@import '../../../../styles/inc/variable.css';
+
+.areaguides-card-wrapper {
+    .areaguides-img-wrapper {
+        display: block;
+        overflow: hidden;
+        border-radius: 4px;
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: 50% 10%;
+            transform: scale(1);
+            @include transition(all .4s ease-in-out);
+
+            @media all and (max-width: $screen-lg) {
+                height: 250px;
+            }
+
+            @media all and (max-width: $mobile) {
+                height: 240px;
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    .areaguides-text-wrapper {
+        margin-top: 24px;
+        
+        a {
+            font-family: var(--font-base);
+            @include fontsize(20px);
+            font-weight: var(--semi-bold);
+            color: var(--color-dark6);
+            line-height: var(--line-height-secondary);
+            border-bottom: solid 1px transparent;
+
+            @media all and (max-width: $screen-lg) {
+                @include fontsize(18px);
+            }
+
+            &:hover {
+                border-bottom: solid 1px var(--color-dark6);
+            }
+        }
+    }
+}

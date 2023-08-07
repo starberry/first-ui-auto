@@ -1,0 +1,64 @@
+@import '../../../../styles/inc/variable.css';
+
+.news-detail-accordion-wrapper {
+    padding-bottom: 24px;
+
+    .news-detail-accordion {
+        .accordion-item {
+            background-color: transparent;
+            border: 0;
+            padding: 17px 0;
+            border-top: solid 1px var(--color-light-grey);
+            border-radius: 0;
+
+            &:last-of-type {
+                border-bottom: solid 1px var(--color-light-grey);
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    background-color: transparent;
+                    padding: 0;
+                    border-color: transparent;
+                    margin-bottom: 24px;
+                    box-shadow: none;
+                    border-radius: 0;
+                    font-family: var(--font-base);
+                    @include fontsize(16px);
+                    font-weight: var(--semi-bold);
+                    color: var(--color-dark2);
+                    line-height: var(--line-height-secondary);
+
+                    @media all and (max-width: $mobile) {
+                        @include fontsize(14px);
+                    }
+
+                    &.collapsed {
+                        margin-bottom: 0;
+                        
+                        &::after {
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M12 3V21M21 12L3 12' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                            @include widthheight(16px, 16px);
+                            background-size: 16px;
+                        }
+                    }
+
+                    &::after {
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21 12L3 12' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                        @include widthheight(16px, 16px);
+                        background-size: 16px;
+                    }
+
+                    &:hover, &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+                }
+            }
+
+            .accordion-body {
+                padding: 0;
+            }
+        }
+    }
+}

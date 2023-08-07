@@ -1,0 +1,226 @@
+{
+    "property": {
+      "images":{
+        "sizes": [
+          "376x255",
+          "750x506",
+          "1008x680"
+        ],
+        "results": {
+          "sizes": {
+            "416x300": "(min-width: 320px)"
+          }
+        },
+        "details":{
+          "sizes": {
+            "376x255": "(max-width: 480px)",
+            "750x506": "(max-width: 750px)",
+            "1008x680": "(min-width: 751px)"
+          }
+        }
+      }
+    },
+    "new-developments": {
+      "images":{
+        "results": {
+          "sizes": {
+            "640x404": "(min-width: 320px)"
+          }
+        },
+        "details":{
+          "sizes": {
+            "750x506": "(max-width: 750px)",
+            "1600x680": "(min-width: 751px)"
+          }
+        }
+      }
+    },
+    "page": {
+        "banner_section_banner_image":{
+            "sizes": [
+            "1800x1000",
+            "768x397",
+            "376x667"
+            ],
+            "landing_banner_image":{
+            "sizes": {
+                "376x667": "(max-width: 480px)",
+                "768x397": "(max-width: 1100px)",
+                "1800x1000": "(min-width: 1100px)"
+            }
+            }
+        },
+        "tile_section_image":{
+            "sizes": [
+            "900x600",
+            "770x500",
+            "370x260"
+            ],
+            "tile_image":{
+            "sizes": {
+                "370x260": "(max-width: 480px)",
+                "770x500": "(max-width: 1100px)",
+                "900x600": "(min-width: 1100px)"
+            }
+            }
+        },
+        "explore_section_tile_image":{
+            "sizes": [
+            "55x55"
+            ],
+            "explore_tile_image":{
+            "sizes": {
+                "55x55": "(min-width: 320px)"
+            }
+            }
+        },
+        "valuation_section_tile_image":{
+            "sizes": [
+            "416x200"
+            ],
+            "valuation_tile_image":{
+            "sizes": {
+                "416x200": "(min-width: 320px)"
+            }
+            }
+        },
+        "review_section_tile_image":{
+            "sizes": [
+            "416x300"
+            ],
+            "review_tile_image":{
+            "sizes": {
+                "416x300": "(min-width: 320px)"
+            }
+            }
+        }
+    },
+    "blog":{
+      "tile_image":{
+        "sizes": [
+          "365x300"
+        ],
+        "small_image": {
+          "sizes": {
+            "365x300": "(min-width: 320px)"
+          }
+        }
+      },
+      "banner_image":{
+        "sizes": [
+          "750x500",
+          "720x500",
+          "336x240"
+        ],
+        "details":{
+          "sizes": {
+            "336x240": "(max-width: 480px)",
+            "720x500": "(max-width: 1100px)",
+            "750x500": "(min-width: 1100px)"
+          }
+        }
+      }
+    },
+    "area-guide":{
+      "tile_image":{
+        "sizes": [
+          "304x300"
+        ],
+        "small_image": {
+          "sizes": {
+            "304x300": "(min-width: 320px)"
+          }
+        }
+      },
+      "banner_image":{
+        "sizes": [
+          "1600x600",
+          "750x500",
+          "720x500",
+          "336x240"
+        ],
+        "details":{
+          "sizes": {
+            "336x240": "(max-width: 480px)",
+            "720x500": "(max-width: 1100px)",
+            "1600x600": "(min-width: 1100px)"
+          }
+        },
+        "details1":{
+          "sizes": {
+            "336x240": "(max-width: 480px)",
+            "720x500": "(max-width: 1100px)",
+            "750x500": "(min-width: 1100px)"
+          }
+        }
+      }
+    },
+    "team":{
+      "image":{
+        "sizes": [
+          "60t61",
+          "265ct",
+          "336ct",
+          "744ct",
+          "416ct"
+        ],
+        "propdetails_image": {
+          "sizes": {
+            "60t61": "(min-width: 60px)"
+          }
+        },
+        "tile_image": {
+          "sizes": {
+            "600ct": "(min-width: 320px)"
+          }
+        },
+        "full_image": {
+          "sizes": {
+            "336ct": "(max-width: 480px)",
+            "744ct": "(max-width: 1100px)",
+            "416ct": "(min-width: 1100px)"
+          }
+        }
+      }
+    },
+    "career":{
+      "image":{
+        "sizes": [
+          "336ct240",
+          "744ct500",
+          "416ct465"
+        ],
+        "full_image": {
+          "sizes": {
+            "336ct240": "(max-width: 480px)",
+            "744ct500": "(max-width: 1100px)",
+            "416ct465": "(min-width: 1100px)"
+          }
+        }
+      }
+    },
+    "office":{
+      "image":{
+        "sizes": [
+          "340x200",
+          "640x320",
+          "858x680",
+          "768x540",
+          "390x253"
+        ],
+        "full_image": {
+          "sizes": {
+            "340x200": "(max-width: 1100px)",
+            "640x320": "(min-width: 1100px)"
+          }
+        },
+        "details": {
+          "sizes": {
+            "390x253": "(max-width: 480px)",
+            "768x540": "(max-width: 1100px)",
+            "858x680": "(min-width: 1100px)"
+          }
+        }
+      }
+    }
+}

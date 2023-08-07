@@ -1,0 +1,48 @@
+@import '../../../../styles/inc/variable.css';
+
+.inner-intro-wrapper {
+    padding-top: 104px;
+    padding-bottom: 80px;
+
+    @media all and (max-width: $screen-lg) {
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    h2 {
+        @media all and (max-width: $screen-2lg) {
+            padding-bottom: 32px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+    }
+
+    ul {
+        list-style: disc;
+        padding-left: 25px;
+        padding-top: 10px;
+
+        li {
+            &:not(:last-child) {
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    p {
+        a {
+            color: var(--primary-color);
+
+            &:hover {
+                color: var(--color-dark2);
+            }
+        }
+    }
+}

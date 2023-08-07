@@ -1,0 +1,148 @@
+@import '../../../../styles/inc/variable.css';
+
+.property-desc-title {
+    padding-bottom: 24px;
+
+    @media all and (max-width: $mobile) {
+        padding-bottom: 16px;
+    }
+}
+
+.calc-form-group {
+    margin-bottom: 24px;
+
+    .form-label {
+        font-family: var(--font-base);
+        @include fontsize(14px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        margin-bottom: 8px;
+
+        @media all and (max-width: $screen-2xl) {
+            min-height: 40px;
+        }
+    }
+
+    .form-control {
+        border: 1px solid var(--color-light-grey);
+        border-radius: 2px;
+        height: 48px;
+    }
+
+    .dropdown-select {
+        border: 1px solid var(--color-light-grey);
+        border-radius: 2px;
+        height: 48px;
+        background-color: var(--color-white);
+
+        .select-control {
+            width: 100%;
+
+            .react-select__menu {
+                top: 40px;
+            }
+
+            .react-select__value-container {
+                padding-left: 16px;
+            }
+
+            .react-select__indicators {
+                padding-right: 16px;
+            }
+        }
+    }
+}
+
+.estimate-card {
+    margin-bottom: 24px;
+
+    .property-desc-title-sm {
+        font-family: var(--font-base);
+        @include fontsize(18px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark3);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 8px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(14px);
+        }
+    }
+
+    .property-desc-calc-price {
+        font-family: var(--font-secondary);
+        @include fontsize(40px);
+        font-weight: var(--normal);
+        color: var(--primary-color);
+        line-height: var(--line-height-primary);
+
+        @media all and (max-width: $screen-lg) {
+            @include fontsize(32px);
+        }
+    }
+}
+
+.calc-btn {
+    width: 100%;
+    margin-bottom: 24px;
+    height: 48px;
+}
+
+.calc-nego-wrapper {
+    .calc-nego-img {
+        .gatsby-image-wrapper {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            margin-right: 24px;
+
+            img {
+                width: 48px;
+                height: 48px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .calc-nego-text-card {
+        .calc-nego-text {
+            font-family: var(--font-base);
+            @include fontsize(14px);
+            font-weight: var(--semi-bold);
+            color: var(--color-dark3);
+            line-height: var(--line-height-secondary);
+            
+            &.stamp-calc-text {
+                color: var(--color-dark2);
+                margin-bottom: 10px;
+            }
+
+            &-sm {
+                font-family: var(--font-base);
+                @include fontsize(14px);
+                font-weight: var(--normal);
+                color: var(--color-dark2);
+                line-height: var(--line-height-secondary);
+                margin-bottom: 10px;
+    
+                .link-underline {
+                    @include fontsize(14px);
+                }
+            }
+        }
+    }
+}
+
+.stampdutytext {
+    line-height: 1.5;
+}
+
+.calculator {
+    .alert {
+        p {
+            font-size: 14px;
+        }
+    }
+}

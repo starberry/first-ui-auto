@@ -1,0 +1,28 @@
+@import '../../../../styles/inc/variable.css';
+
+.teams-tab-wrapper {
+    margin-bottom: 80px;
+    @media all and (max-width: $screen-lg) {
+        margin-bottom: 64px;
+    }
+
+    @media all and (max-width: $mobile) {
+        margin-bottom: 40px;
+    }
+    .teams-card-wrapper-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 32px;
+        row-gap: 40px;
+
+        @media all and (max-width: $screen-lg) {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 16px;
+        }
+
+        @media all and (max-width: $mobile) {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 32px;
+        }
+    }
+}

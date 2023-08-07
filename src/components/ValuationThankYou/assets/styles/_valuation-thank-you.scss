@@ -1,0 +1,129 @@
+@import '../../../../styles/inc/variable.css';
+
+.valuation-thanks-wrapper {
+    padding-bottom: 80px;
+
+    @media all and (max-width: $mobile) {
+        padding-bottom: 40px;
+    }
+    .valuation-thanks-title-sm {
+        color: var(--color-dark-light);
+        @include fontsize(18px);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 8px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(14px);
+        }
+    }
+
+    h2 {
+        padding-bottom: 40px;
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+    }
+
+    .valuation-thanks-list {
+        margin-bottom: 40px;
+
+        @media all and (max-width: $mobile) {
+            margin-bottom: 24px;
+        }
+
+        .button-sec {
+            width: 260px;
+
+            @media all and (max-width: $mobile) {
+                width: 140px;
+            }
+        }
+    }
+
+    .valuation-est-wrapper {
+        margin-bottom: 32px;
+        border-top: solid 1px var(--color-dark-light2);
+        padding-top: 20px;
+        position: relative;
+
+        @media all and (max-width: $mobile) {
+            margin-bottom: 24px;
+            border-color: transparent;
+            padding-top: 0;
+        }
+
+        .valuation-dots {
+            position: relative;
+            top: -24px;
+            background-color: var(--secondary-dark);
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+
+            &.large {
+                top: -27px;
+                width: 12px;
+                height: 12px;
+            }
+        }
+
+        .valuation-est-text-wrapper {
+            // @media all and (max-width: $screen-lg8) {
+            //     @include fontsize(32px);
+            // }
+
+            @media all and (max-width: $mobile) {
+                margin-bottom: 32px;
+            }
+
+            .valuation-est-title {
+                color: var(--color-dark);
+                @include fontsize(14px);
+                font-weight: var(--normal);
+                padding-bottom: 8px;
+            }
+    
+            .valuation-est-price {
+                color: var(--color-dark);
+                @include fontsize(16px);
+                font-weight: var(--semi-bold);
+
+                &.est-mid-price {
+                    @include fontsize(20px);
+                }
+
+                @media all and (max-width: $mobile) {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+
+    .valuation-btn-wrapper {
+        margin-bottom: 24px;
+
+        @media all and (max-width: $mobile) {
+            margin-bottom: 16px;
+        }
+
+        .button-sec {
+            width: 100%;
+        }
+    }
+
+    p {
+        @include fontsize(16px);
+        color: var(--color-dark-light);
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(14px);
+        }
+
+        span {
+            font-weight: var(--semi-bold);
+            color: var(--color-dark);
+        }
+    }
+}

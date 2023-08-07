@@ -1,0 +1,42 @@
+.container {
+	padding: 0 20px;
+	// max-width: 100%;
+
+	// max-width: none;
+}
+
+.container {
+	@media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+		padding: 0 24px;
+		// max-width: 768px;
+	}
+
+	@media all and (min-width: $screen-lg) {
+		padding: 0 24px;
+		// max-width: 1145px;
+	}
+
+	// @media all and (min-width: $screen-xl) {
+	// 	max-width: 1245px;
+	// }
+
+	@media all and (min-width: $screen-xl) {
+		padding: 0;
+		max-width: 1150px;
+	}
+
+	@media all and (min-width: $screen-2xl) {
+		// padding: 0;
+		max-width: 1300px;
+	}
+
+	@media all and (min-width: $screen-3xl) {
+		max-width: 1400px;
+		// padding: 0;
+	}
+
+	@media all and (min-width: $screen-4xl) {
+		max-width: 1448px;
+		// padding: 0;
+	}
+}

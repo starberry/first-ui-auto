@@ -1,0 +1,257 @@
+@import '../../../../styles/inc/variable.css';
+
+.new-homes-details-banner-wrapper {
+    height: 680px;
+    overflow: hidden;
+    position: relative;
+
+    @media all and (max-width: $screen-lg) {
+        height: 540px;
+    }
+
+    @media all and (max-width: $mobile) {
+        height: 253px;
+    }
+
+    .overlay-bg {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .new-homes-details-banner-slider-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .new-homes-details-banner-slider {
+        .new-homes-details-banner-slide {
+            .new-homes-details-banner-img-zoom {
+                display: block;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 680px;
+                    object-fit: cover;
+                    object-position: 50% 10%;
+                    transform: scale(1);
+                    @include transition(all .3s ease-in-out);
+    
+                    @media all and (max-width: $screen-lg) {
+                        height: 540px;
+                    }
+    
+                    @media all and (max-width: $mobile) {
+                        height: 253px;
+                    }
+                }
+
+                &:hover {
+                    img {
+                        transform: scale(1.02);
+                    }
+                }
+            }
+        }
+
+        .slick-arrow {
+            @include transition(all .3s ease-in-out);
+            z-index: 5;
+            top: auto;
+            bottom: 39px;
+
+            @media all and (max-width: $screen-lg) {
+                top: 493px;
+                bottom: auto;
+            }
+
+            @media all and (max-width: $mobile) {
+                top: 217px;
+            }
+    
+            &.slick-prev {
+                left: auto;
+                right: 220px;
+
+                @media all and (max-width: $screen-lg) {
+                    right: 210px;
+                }
+
+                @media all and (max-width: $mobile) {
+                    right: 200px;
+                }
+    
+                &::before {
+                    content: '';
+                    opacity: 1;
+                    color: transparent;
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-size: contain;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M10.5 13L5.5 8L10.5 3' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                    @include widthheight(16px, 16px);
+                }
+            }
+    
+            &.slick-next {
+                right: 160px;
+                left: auto;
+
+                @media all and (max-width: $screen-lg) {
+                    right: 150px;
+                }
+
+                @media all and (max-width: $mobile) {
+                    right: 140px;
+                }
+
+                &::before {
+                    content: '';
+                    opacity: 1;
+                    color: transparent;
+                    display: inline-block;
+                    vertical-align: middle;
+                    background-size: contain;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M5.5 3L10.5 8L5.5 13' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                    @include widthheight(16px, 16px);
+                }
+            }
+        }
+    }
+
+    .new-homes-details-banner-zoom-wrapper {
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        z-index: 2;
+
+        @media all and (max-width: $screen-lg) {
+            right: 24px;
+            top: 470px;
+            bottom: auto;
+        }
+
+        @media all and (max-width: $mobile) {
+            top: 195px;
+            right: 10px;
+        }
+
+        li {
+            margin-right: 16px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .zoom-btn {
+            font-family: var(--font-base);
+            @include fontsize(14px);
+            font-weight: var(--normal);
+            color: var(--color-dark3);
+            line-height: var(--line-height-secondary);
+            background: var(--color-white);
+            border-radius: 2px;
+            padding: 14px 16px;
+
+            &.banner-arrow {
+                width: 100px;
+            }
+
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+
+    .new-homes-details-banner-container {
+        position: relative;
+        z-index: 0;
+        padding-top: 377px;
+        padding-bottom: 80px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-top: 164px;
+            padding-bottom: 64px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-top: 46px;
+            padding-bottom: 40px;
+        }
+
+        h2 {
+            padding-bottom: 24px;
+            color: var(--color-white);
+        }
+
+        .new-homes-price {
+            font-family: var(--font-base);
+            @include fontsize(18px);
+            font-weight: var(--normal);
+            color: var(--color-white);
+            line-height: var(--line-height-secondary);
+            padding-bottom: 16px;
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(16px);
+                padding-bottom: 8px;
+            }
+        }
+
+        .new-homes-title {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--normal);
+            color: var(--color-white);
+            line-height: var(--line-height-secondary);
+            padding-bottom: 48px;
+
+            @media all and (max-width: $screen-lg) {
+                padding-bottom: 40px;
+            }
+
+            @media all and (max-width: $mobile) {
+                padding-bottom: 24px;
+            }
+        }
+
+        ul {
+            padding-bottom: 48px;
+
+            @media all and (max-width: $screen-lg) {
+                padding-bottom: 40px;
+            }
+
+            @media all and (max-width: $mobile) {
+                padding-bottom: 24px;
+            }
+
+            li {
+                margin-right: 24px;
+
+                @media all and (max-width: $mobile) {
+                    margin-right: 0;
+                    margin-bottom: 16px;
+                    width: 100%;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .button {
+                    @media all and (max-width: $mobile) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

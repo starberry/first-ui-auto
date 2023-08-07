@@ -1,0 +1,35 @@
+@import '../../../../styles/inc/variable.css';
+
+.footer {
+    .footer-menu {
+        .footer-menu-list-social {
+            li {
+                margin-right: 16px;
+                padding-bottom: 0;
+        
+                &:not(:last-child) {
+                    margin-right: 16px;
+                }
+        
+                &:last-child {
+                    margin-right: 0;
+                }
+        
+                .social-circle {
+                    background-color: var(--footer-social-icon-bg-color);
+                    @include widthheight(48px, 48px);
+                    border-radius: 50%;
+                    @include transition(all .3s ease);
+                }
+        
+                a {
+                    &:hover {
+                        .social-circle {
+                            background-color: var(--footer-social-icon-bg-hover-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import '../../../../styles/inc/variable.css';
+
+.property-details-map-wrapper {
+    .property-details-map {
+        height: 440px;
+
+        @media all and (max-width: $mobile) {
+            height: 260px;
+        }
+    }
+}

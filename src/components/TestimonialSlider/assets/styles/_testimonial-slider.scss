@@ -1,0 +1,35 @@
+@import '../../../../styles/inc/variable.css';
+
+.testimonial-slider-wrapper {
+    overflow: hidden;
+    margin: 80px 0;
+
+    @media all and (max-width: $screen-lg) {
+        margin: 48px 0;
+    }
+
+    .testimonial-slider {
+        .slick-list {
+            margin: 0 -25px;
+
+            @media all and (max-width: $screen-lg) {
+                margin: 0 -8px;
+            }
+        }
+
+        .slick-dots {
+            margin-top: 0;
+            text-align: left;
+        }
+
+        .testimonial-slide {
+            padding: 0 16px;
+            position: relative;
+            text-align: left;
+
+            @media all and (max-width: $screen-lg) {
+                padding: 0 8px;
+            }
+        }
+    }
+}

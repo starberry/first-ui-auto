@@ -1,0 +1,25 @@
+@import '../../../../styles/inc/variable.css';
+
+.new-homes-details-desc-wrapper {
+    .new-homes-details-heading {
+        @include fontsize(32px);
+        padding-bottom: 40px;
+    }
+
+    .new-homes-details-sidebar {
+        top: 0;
+    
+        &.scrolled {
+            top: 150px;
+        }
+    }
+}
+
+.new-homes-key-details-wrapper {
+    padding-top: 48px;
+}
+
+.news-homes-key-details-divider-line {
+    border-bottom: solid 1px var(--color-light-grey);
+    margin-bottom: 24px;
+}

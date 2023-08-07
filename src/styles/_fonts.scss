@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/albert-sans-regular.woff2') format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/albert-sans-600.woff2') format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/dm-serif-display-regular.woff2') format("woff2");
+    font-display: swap;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');

@@ -1,0 +1,117 @@
+[
+    {
+      "element": "config",
+      "formname": "Book a Valuation",
+      "error_text": "Highlighted fields are required",
+      "success_text": "Thank you for your interest. A member of our team will contact you shortly.",
+      "email_temp_user": "instant_valuation_user",
+      "email_temp_admin": "instant_valuation_admin",
+      "email_subject_user": "Book a Valuation",
+      "email_subject_admin": "Book a Valuation",
+      "email_server_func": "getstarted",
+      "event_tracking": "Instant online - property valuation",
+      "page_url": "/getstarted"
+    },
+    {
+      "grpmd": "6",
+      "label": "First Name*",
+      "placeholder": "Enter First Name",
+      "name": "first_name",
+      "type": "text",
+      "element": "input",
+      "required": true,
+      "patternchk": "^[-a-zA-Z0-9-()]+(\\s+[-a-zA-Z0-9-()]+)*$",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "6",
+      "label": "Last Name*",
+      "placeholder": "Enter Last Name",
+      "name": "last_name",
+      "type": "text",
+      "element": "input",
+      "required": true,
+      "patternchk": "^[-a-zA-Z0-9-()]+(\\s+[-a-zA-Z0-9-()]+)*$",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "12",
+      "label": "Email Address*",
+      "placeholder": "Enter Email Address",
+      "name": "email",
+      "type": "email",
+      "element": "input",
+      "required": true,
+      "patternchk": "[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "12",
+      "label": "Telephone Number*",
+      "placeholder": "Enter Telephone Number",
+      "name": "telephone",
+      "type": "text",
+      "element": "input",
+      "required": true,
+      "patternchk": "^[+]*[0-9-()]+(\\s+[0-9-()]+)*.{9}$",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "12",
+      "label": "Postcode",
+      "placeholder": "Your postcode*",
+      "name": "postcode",
+      "type": "text",
+      "element": "postcode",
+      "required": true,
+      "patternchk": "^[-a-zA-Z0-9-()]+(\\s+[-a-zA-Z0-9-()]+)*$",
+      "labelClass": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "12",
+      "label": "Do you want to Sell or Let the property*",
+      "placeholder": "Property type",
+      "name": "property_type",
+      "element": "select",
+      "required": true,
+      "values": ["Sell", "Rent"],
+      "class": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "grpmd": "12",
+      "label": "How many bedrooms does it have?*",
+      "placeholder": "Select bedrooms",
+      "name": "bedrooms",
+      "element": "select",
+      "required": true,
+      "values": ["1", "2", "3", "4", "5"],
+      "class": "content_b-18",
+      "className": "theme-form-group"
+    },
+    {
+      "name": "Submit Details",
+      "type": "submit",
+      "element": "button",
+      "value": "submit",
+      "step": "col-md-12 text-center",
+      "class": "button button-primary btn",
+      "formclass": "",
+      "className": "theme-form-group"
+    },
+    {
+      "step": "col-md-12",
+      "text": "By clicking Send Message, you agree to our <a href='/terms-and-condition/'>Terms & Conditions</a>  and  <a href='/privacy-policy/'> Privacy Policy </a>.",
+      "element": "html",
+      "class": "enquiry-term-text text-center"
+    },
+    {
+      "element": "captcha",
+      "class": "py-2 captcha-class"
+    }
+]

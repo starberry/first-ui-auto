@@ -1,0 +1,32 @@
+@import '../../../../styles/inc/variable.css';
+
+.siteby-logo {
+    font-family: var(--font-base);
+    @include fontsize(16px);
+    font-weight: var(--normal);
+    color: var(--color-dark2);
+    line-height: var(--line-height-secondary);
+
+    @media all and (max-width: $screen-lg) {
+        margin-top: 8px;
+    }
+
+    @media all and (max-width: $mobile) {
+        @include fontsize(14px);
+    }
+
+    img {
+        margin-left: 5px;
+        height: 15px;
+    }
+}
+
+.footer-dubai {
+    .siteby-logo {
+        color: var(--color-light-grey);   
+    }
+
+    img {
+        filter: brightness(0) invert(1);
+    }
+}

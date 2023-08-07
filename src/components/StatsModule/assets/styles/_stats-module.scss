@@ -1,0 +1,70 @@
+@import '../../../../styles/inc/variable.css';
+
+.stats-wrapper {
+    padding-top: 0;
+    padding-bottom: 104px;
+
+    @media all and (max-width: $screen-lg) {
+        padding-bottom: 32px;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding-bottom: 24px;
+    }
+
+    .stats-title {
+        padding-bottom: 40px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 32px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 20px;
+        }
+    }
+
+    &.inner-page {
+        // padding-top: 80px;
+
+        // @media all and (max-width: $screen-lg) {
+        //     padding-top: 48px;
+        // }
+    
+        // @media all and (max-width: $mobile) {
+        //     padding-top: 32px;
+        // }
+    }
+
+    .stats-card {
+        @media all and (max-width: $screen-2lg) {
+            padding-bottom: 32px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 16px;
+        }
+
+        .stats-title {
+            font-family: var(--font-secondary);
+            @include fontsize(56px);
+            font-weight: var(--stats-title-font-weight);
+            color: var(--stats-title-color);
+            line-height: var(--line-height-primary);
+            padding-bottom: 16px;
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(32px);
+                padding-bottom: 8px;
+            }
+        }
+    
+        .stats-text {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--stats-text-font-weight);
+            color: var(--stats-text-color);
+            line-height: var(--line-height-secondary);
+        }
+    }
+}

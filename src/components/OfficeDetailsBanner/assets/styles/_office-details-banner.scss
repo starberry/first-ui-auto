@@ -1,0 +1,107 @@
+@import '../../../../styles/inc/variable.css';
+
+.office-details-banner-wrapper {
+    overflow: hidden;
+    background-color: var(--color-white);
+    border-top: solid 1px var(--color-light-grey);
+
+    .office-details-banner-content-wrapper {
+        @media all and (max-width: $screen-lg9) {
+            padding-top: 40px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-top: 32px;
+        }
+
+        .office-details-heading {
+            @include fontsize(40px);
+            font-weight: var(--normal);
+            color: var(--color-dark3);
+            line-height: var(--line-height-primary);
+            padding-bottom: 24px;
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(24px);
+                // padding-top: 32px;
+            }
+        }
+
+        .contact-card-mobile {
+            padding-bottom: 8px;
+
+            a {
+                font-family: var(--font-base);
+                @include fontsize(16px);
+                font-weight: var(--semi-bold);
+                color: var(--color-dark3);
+                line-height: var(--line-height-secondary);
+                border-bottom: solid 1px transparent;
+                @include transition(all ease 0.3s);
+
+                &:hover {
+                    border-bottom: solid 1px var(--color-dark3);
+                }
+            }
+        }
+
+        .contact-card-email {
+            a {
+                @include fontsize(16px);
+            }
+        }
+
+        .office-details-btn-wrapper{
+            padding-top: 40px;
+
+            @media all and (max-width: $screen-lg) {
+                padding-bottom: 48px;
+            }
+
+            @media all and (max-width: $mobile) {
+                padding-top: 24px;
+                padding-bottom: 40px;
+            }
+
+            .office-details-btn {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .office-details-banner-img-wrapper {
+        height: 680px;
+        
+        @media all and (max-width: $screen-lg9) {
+            height: 540px;
+        }
+    
+        @media all and (max-width: $mobile) {
+            height: 253px;
+        }
+
+        .office-details-banner-img-zoom {
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                width: 50%;
+                height: 680px;
+                object-fit: cover;
+                object-position: 50% 10%;
+                border-radius: 4px;
+                top: 0;
+                right: 0;
+
+                @media all and (max-width: $screen-lg9) {
+                    width: 100%;
+                    height: 540px;
+                }
+
+                @media all and (max-width: $mobile) {
+                    height: 253px;
+                }
+            }
+        }
+    }
+}

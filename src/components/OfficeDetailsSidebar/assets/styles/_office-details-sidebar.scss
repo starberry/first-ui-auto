@@ -1,0 +1,74 @@
+@import '../../../../styles/inc/variable.css';
+
+.office-details-sidebar-card-wrapper {
+    background-color: var(--color-white);
+    border-radius: 4px;
+    padding: 32px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16)) drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.08));
+
+    @media all and (max-width: $mobile) {
+        padding: 24px 16px;
+    }
+
+    .sales-section, .lettings-section {
+        p {
+            padding-bottom: 6px;
+        }
+    }
+
+    .office-details-sidebar-title {
+        font-family: var(--font-base);
+        @include fontsize(18px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark3);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 16px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+        }
+    }
+
+    .office-details-sidebar-phone {
+        padding-bottom: 8px;
+
+        a {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--semi-bold);
+            color: var(--color-dark2);
+            line-height: var(--line-height-secondary);
+            border-bottom: solid 1px transparent;
+
+            &:hover {
+                border-bottom: solid 1px var(--color-dark3);
+            }
+        }
+    }
+
+    .office-details-sidebar-mail {
+        padding-bottom: 8px;
+
+        a {
+            @include fontsize(16px);
+        }
+    }
+
+    .office-details-sidebar-address,p {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+    }
+
+    .office-details-sidebar-divider-line {
+        border-bottom: solid 1px var(--color-grey1);
+        padding-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .office-details-sidebar-spacing {
+        padding-bottom: 8px;
+    }
+}

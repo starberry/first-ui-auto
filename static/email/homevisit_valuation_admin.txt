@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:v="urn:schemas-microsoft-com:vml"
+   xmlns:o="urn:schemas-microsoft-com:office:office">
+   <head>
+      <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="format-detection" content="date=no" />
+      <meta name="format-detection" content="address=no" />
+      <meta name="format-detection" content="telephone=no" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <title>Email Template</title>
+      <style type="text/css" media="screen">
+         @font-face {
+         font-family: Trebuchet MS;
+         src: url(__imgurl__images/Trebuchet-MS.ttf);
+         font-weight: bold;
+         }
+         [style*="Roboto"] { font-family: 'Roboto', Trebuchet MS, Arial, sans-serif !important; }
+         /* Linked Styles */
+         body { padding:0 !important; margin:0 !important; display:block !important; background:#f9f9f9; -webkit-text-size-adjust:none }
+         a { color:#021f48; text-decoration:none }
+         p { padding:0 !important; margin:0 !important } 
+         /* Mobile styles */
+         @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) { 
+         div[class='mobile-br-5'] { height: 5px !important; }
+         div[class='mobile-br-10'] { height: 10px !important; }
+         div[class='mobile-br-15'] { height: 15px !important; }
+         div[class='mobile-br-20'] { height: 20px !important; }
+         div[class='mobile-br-25'] { height: 25px !important; }
+         div[class='mobile-br-30'] { height: 30px !important; }
+         th[class='m-td'], 
+         td[class='m-td'], 
+         div[class='hide-for-mobile'], 
+         span[class='hide-for-mobile'] { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+         span[class='mobile-block'] { display: block !important; }
+         div[class='wgmail'] img { min-width: 320px !important; width: 320px !important; }
+         div[class='img-m-center'] { text-align: center !important; }
+         div[class='fluid-img'] img,
+         td[class='fluid-img'] img { width: 100% !important; max-width: 480px !important; height: auto !important; }
+         table[class='mobile-shell'] { width: 100% !important; min-width: 100% !important; }
+         td[class='td'] { width: 100% ! important; min-width: 100% !important; }
+         table[class='center'] { margin: 0 auto; }
+         th[class='column'] { float: left !important; width: 100% !important; display: block !important; }
+         td[class='content-spacing'] { width: 15px !important; }
+         } 
+      </style>
+   </head>
+   <body class="body" style="padding:0 !important; margin:0 !important; display:block !important; background:#f8f8f8; -webkit-text-size-adjust:none">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f8f8f8">
+         <tr>
+            <td align="center" valign="top">
+               <table width="691" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+                  <tr>
+                     <td class="td" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; width:691px; min-width:691px; Margin:0" width="691">
+                        <div class="hide-for-mobile">
+                           <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                              <tr>
+                                 <td height="50" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                              </tr>
+                           </table>
+                           <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                              <tr>
+                                 <td height="22" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                              </tr>
+                           </table>
+                        </div>
+                        <!-- Container -->
+                        <table width="100%" border="0" cellspacing="1" cellpadding="0" bgcolor="#ffffff" style="border-left: 10px solid #e5e5e5;">
+                           <tr>
+                              <td>
+                                 <table width="85%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                    <tr>
+                                       <td>
+                                          <!-- Header -->
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                             <tr>
+                                                <td class="img-center" style="font-size:0pt; line-height:0pt; text-align:left;">
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:left; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="25" class="spacer" style="font-size:0pt; line-height:0pt; text-align:left; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <a href="__siteurl__" target="_blank" style="text-align: center;display: block;"><img src="__imgurl__mail-logo.png" editable="true" border="0" alt="" style="max-width:197px;max-height: 70px;" /></a>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="20" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                                <td width="15" class="img" style="font-size:0pt; line-height:0pt; text-align:left"></td>
+                                                <td width="35" class="m-td" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; text-align:left"></td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <!-- END Header -->
+                                 <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__" width="1" height="1" style="height:1px" alt="" /></div>
+                                 <table width="85%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                    <tr>
+                                       <td>
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                             <tr>
+                                                <td>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="25" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div class="h3" style="color: #393939; font-family: Trebuchet MS; font-size:15px; line-height:30px;text-align:left;">
+                                                      <multiline>Dear Team __sitename__,<br/><br/></multiline>
+                                                      <multiline>
+                                                         <div style="display: __officeshowone__;">
+                                                            <p style="font-size: 15px;line-height: 28px;color: #393939;">The following person has sent a enquiry through the website:</p>
+                                                         </div>
+                                                      </multiline>
+                                                   </div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="26" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="8" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Name:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><span class="link" style="color: #393939; text-decoration:none">__name__</span></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Telephone:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><a href="tel:__phone__" target="_blank" class="link" style="color: #393939; text-decoration:none"><span class="link" style="color: #393939; text-decoration:none">__telephone__</span></a></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Email:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><a href="mailto:__email__" target="_blank" class="link" style="color: #393939; text-decoration:none"><span class="link" style="color: #393939; text-decoration:none">__email__</span></a></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Postcode:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><span class="link" style="color: #393939; text-decoration:none">__postcode__</span></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Property type:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><span class="link" style="color: #393939; text-decoration:none">__propertytype__</span></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Time:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><span class="link" style="color: #393939; text-decoration:none">__time__</span></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="2" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <div style="font-size:0pt; line-height:0pt; height:1px; background:#d8d8d8; "><img src="__imgurl__images/spacer.gif" width="1" height="1" style="height:1px" alt="" /></div>
+                                                   <div style="font-size:0pt; line-height:0pt;" class="mobile-br-10"></div>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                                      <tr>
+                                                         <td>
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                               <tr>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="160">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight:300;">
+                                                                                 <multiline><b>Date:</b></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0" width="10">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                                        <tr>
+                                                                           <td height="5" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                                  <th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; Margin:0">
+                                                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                           <td valign="top">
+                                                                              <div class="text-table-2" style="color: #393939; font-family:Trebuchet MS; font-size:15px; line-height:28px; text-align:left; font-weight: 300;">
+                                                                                 <multiline><span class="link" style="color: #393939; text-decoration:none">__date__</span></multiline>
+                                                                              </div>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </th>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="45" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                                      <tr>
+                                                         <td height="20" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                          <!-- END Content -->
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                        <!-- END Container -->
+                        <div class="hide-for-mobile">
+                           <table width="100%" border="0" cellspacing="0" bgcolor="#f8f8f8"cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                              <tr>
+                                 <td height="35" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                              </tr>
+                           </table>
+                           <!-- Footer -->
+                           <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f8f8f8">
+                              <tr>
+                                 <td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"></td>
+                                 <td>
+                                    <div class="text-footer" style="color:#616161; font-family:Trebuchet MS; font-size:14px;font-weight: 300; line-height:24px; text-align:center;">
+                                       <multiline>&copy; Copyright __copyRightYear__ __sitename__. All rights reserved</multiline>
+                                    </div>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                                       <tr>
+                                          <td height="25" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                                 <td class="content-spacing" style="font-size:0pt; line-height:0pt; text-align:left"></td>
+                              </tr>
+                           </table>
+                           <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f8f8f8" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">
+                              <tr>
+                                 <td height="15" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td>
+                              </tr>
+                           </table>
+                           <!-- END Footer -->
+                     </td>
+                  </tr>
+               </table>
+               <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%"><tr><td height="32" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td></tr></table>
+               <div class="hide-for-mobile">
+               <table width="100%" border="0" cellspacing="0" cellpadding="0" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%"><tr><td height="50" class="spacer" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%">&nbsp;</td></tr></table>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
+</div>

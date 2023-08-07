@@ -1,0 +1,6 @@
+[
+    { "value": "", "label": "All Types" },
+    { "value": "apartment", "label": "Apartment" },
+    { "value": "house", "label": "House" },
+    { "value": "land", "label": "Land" }
+]

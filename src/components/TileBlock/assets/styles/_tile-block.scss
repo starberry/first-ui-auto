@@ -1,0 +1,115 @@
+@import '../../../../styles/inc/variable.css';
+
+.tile-block-wrapper {
+    overflow: hidden;
+
+    .tile-img-wrapper {
+        height: 600px;
+
+        @media (max-width: $screen-md) {
+            height: 500px;
+            margin-bottom: 48px;
+        }
+
+        @media (max-width: $mobile) {
+            height: 260px;
+            margin-bottom: 32px;
+        }
+
+        img {
+            position: absolute;
+            width: 50%;
+            height: 600px;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+
+            @media (max-width: $screen-md) {
+                width: 95%;
+                height: 500px;
+            }
+
+            @media (max-width: $mobile) {
+                height: 260px;
+                // width: 95%;
+            }
+        }
+
+    }
+
+    h2 {
+        padding-bottom: 40px;
+
+        @media (max-width: $screen-lg) {
+            padding-bottom: 32px;
+        }
+
+        @media (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+    }
+
+    p {
+        padding-bottom: 40px;
+
+        @media (max-width: $screen-lg) {
+            padding-bottom: 32px;   
+        }
+
+        @media (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+
+        a {
+            color: var(--primary-color);
+
+            &:hover {
+                color: var(--color-dark2);
+            }
+        }
+    }
+
+    .button {
+        padding: 0 61px;
+
+        @media (max-width: $screen-lg) {
+            margin-bottom: 64px;
+        }
+
+        @media (max-width: $mobile) {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    }
+
+    &.tile-right {
+        .tile-img-wrapper {
+            img {
+                position: absolute;
+                width: 50%;
+                top: 0;
+                right: 0;
+                left: auto;
+
+                @media (max-width: $screen-md) {
+                    width: 95%;
+                }
+
+                // @media (max-width: $mobile) {
+                //     width: 95%;
+                // }
+            }
+        }
+    }
+
+    ul {
+        list-style: disc;
+        margin-left: 20px;
+
+        li {
+            &:not(:last-child) {
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

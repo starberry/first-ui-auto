@@ -1,0 +1,87 @@
+@import '../../../../styles/inc/variable.css';
+
+.news-card-img-zoom {
+    &.teams-img {
+        display: block;
+        overflow: hidden;
+        border-radius: 4px;
+
+        .gatsby-image-wrapper {
+            display: block;
+            overflow: hidden;
+            border-radius: 4px;
+            height: 300px;
+
+            @media all and (max-width: $screen-lg) {
+                height: 330px;
+            }
+
+            @media all and (max-width: $mobile) {
+                height: 300px;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: 50% 10%;
+            transform: scale(1);
+            @include transition(all .4s ease-in-out);
+
+            @media all and (max-width: $screen-lg) {
+                height: 330px;
+            }
+
+            @media all and (max-width: $mobile) {
+                height: 300px;
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.news-card-text-wrapper {
+    .news-card-title {
+        &.teams-title {
+            padding-bottom: 8px;
+            margin-bottom: auto;
+            min-height: unset;
+
+            @media all and (max-width: $mobile) {
+                padding-bottom: 2px;
+            }
+        }
+    }
+
+    .teams-card-position {
+        font-family: var(--font-base);
+        @include fontsize(14px);
+        font-weight: var(--normal);
+        color: var(--color-grey);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 16px;
+    }
+
+    .teams-card-mobile {
+        a {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--semi-bold);
+            color: var(--color-dark3);
+            line-height: var(--line-height-secondary);
+        }
+    }
+
+    .teams-card-mail {
+        a {
+            cursor: pointer;
+            @include fontsize(16px);
+        }
+    }
+}

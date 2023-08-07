@@ -1,0 +1,66 @@
+@import '../../../../styles/inc/variable.css';
+
+.contact-intro-wrapper {
+    padding: 80px 0;
+    background-color: var(--color-white2);
+
+    @media all and (max-width: $screen-lg) {
+        padding: 48px 0;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding: 40px 0;
+    }
+
+    h1 {
+        color: var(--color-dark3);
+        @include fontsize(48px);
+        padding-bottom: 24px;
+
+        @media all and (max-width: $screen-lg) {
+            @include fontsize(40px);
+        }
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(32px);
+        }
+    }
+
+    p {
+        padding-bottom: 40px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+            padding-bottom: 0;
+        }
+
+        a {
+            font-weight: var(--semi-bold);
+            color: var(--primary-color);
+        }
+    }
+
+    .button {
+        width: 240px;
+
+        @media all and (max-width: $mobile) {
+            width: 100%;
+        }
+    }
+
+    ul {
+        li {
+            &:not(:last-child) {
+                margin-right: 24px;
+
+                @media all and (max-width: $screen-lg) {
+                    margin-right: 16px;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

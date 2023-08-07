@@ -1,0 +1,71 @@
+  .mysuggestform-wrapper {
+    position: relative;
+    display: inline-block;
+    color: var(--search-filter-suggestion-text-color);
+    min-width: 250px;
+  }
+  
+//   .input {
+//     width: 350px;
+//     height: 45px;
+//     padding-left: 15px;
+//     border-radius: 5px;
+//     font-size: 17px;
+//     border: none;
+//     color: #fff;
+//   }
+  
+//   .input:focus {
+//     outline: none;
+//     color: #fff;
+//   }
+  
+  .mysuggesticon {
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    color: var(--search-filter-suggestion-text-color);
+  }
+  
+  .mysuggestsuggestion-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 10px 15px;
+    width: 250px;
+    text-align: start;
+    color: var(--search-filter-suggestion-text-color);
+    background-color: var(--search-filter-autocomplete-bg-color);
+    z-index: 1;
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .mysuggestsuggestions {
+    width: 100%;
+    padding: 8px 5px;
+    color: var(--search-filter-suggestion-text-color);
+  }
+  
+  .mysuggestsuggestions:hover {
+    cursor: pointer;
+    color: var(--search-filter-suggestion-text-color);
+  }
+  
+//   .select {
+//     padding-top: 50px;
+//     color: #fff;
+//     font-size: 18px;
+//   }
+  
+//   .selected {
+//     font-family: cursive;
+//     font-weight: 600;
+//     padding-left: 10px;
+//     color: #fff;
+//   }
+  

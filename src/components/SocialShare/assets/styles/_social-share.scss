@@ -1,0 +1,22 @@
+@import '../../../../styles/inc/variable.css';
+
+.social-share-wrapper {
+    position: relative;
+
+    .property-share-social-icons {
+        position: absolute;
+        top: 30px;
+        left: -10px;
+        right: auto;
+        display: flex;
+
+        @media all and (max-width: $screen-lg) {
+            left: auto;
+            right: 0;
+        }
+
+        button {
+            margin-left: 5px;
+        }
+    }
+}

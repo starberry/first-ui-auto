@@ -1,0 +1,67 @@
+@import '../../../../styles/inc/variable.css';
+
+.property-desc-wrapper {
+    background-color: var(--color-white2);
+    padding-top: 72px;
+    padding-bottom: 80px;
+
+    @media all and (max-width: $screen-lg) {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .property-desc-title {
+        padding-bottom: 24px;
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 16px;
+        }
+    }
+
+    .property-desc-text {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+    }
+
+    .property-features-list {
+        list-style-type: disc;
+
+        li {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--normal);
+            color: var(--color-dark2);
+            line-height: var(--line-height-secondary);
+            margin-left: 20px;
+        }
+    }
+
+    .desc-link-text {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        padding-top: 24px;
+
+        span {
+            font-weight: var(--semi-bold);
+            color: var(--color-dark3);
+        }
+
+        .link-underline {
+            @include fontsize(16px);
+        }
+    }
+
+    .property-sidebar {
+        top: 0;
+
+        &.scrolled {
+            top: 150px;
+        }
+    }
+}

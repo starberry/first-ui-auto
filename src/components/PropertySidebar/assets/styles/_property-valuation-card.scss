@@ -1,0 +1,39 @@
+@import '../../../../styles/inc/variable.css';
+
+.property-sidebar-valuation-wrapper {
+    border: 1px solid var(--color-light-grey);
+    border-radius: 4px;
+    padding: 32px;
+
+    @media all and (max-width: $mobile) {
+        padding: 32px 16px;
+    }
+
+    .property-sidebar-valuation-title, h4 {
+        font-family: var(--font-base);
+        @include fontsize(18px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark3);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 16px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+        }
+    }
+
+    .property-sidebar-valuation-text, p {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 32px;
+    }
+
+    .property-sidebar-valuation-btn {
+        .button {
+            width: 100%;
+        }
+    }
+}

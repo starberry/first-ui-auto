@@ -1,0 +1,31 @@
+@import '../../../../styles/inc/variable.css';
+
+.desc-key-wrapper {
+    padding-bottom: 24px;
+
+    &.last-key-wrapper {
+        padding-bottom: 0;
+    }
+
+    .desc-key-title {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--semi-bold);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 4px;
+    }
+
+    .desc-key-text {
+        font-family: var(--font-base);
+        @include fontsize(16px);
+        font-weight: var(--normal);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 4px;
+
+        .link-underline {
+            @include fontsize(16px);
+        }
+    }
+}

@@ -1,0 +1,112 @@
+@import '../../../../styles/inc/variable.css';
+
+.intro-wrapper {
+    padding: 104px 0;
+
+    @media all and (max-width: $screen-lg) {
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    h2 {
+        padding-bottom: 40px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 32px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+    }
+
+    p {
+        padding-bottom: 40px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 32px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 24px;
+        }
+    }
+
+    .button {
+        padding: 0 69px;
+
+        @media all and (max-width: $mobile) {
+            width: 100%;
+        }
+    }
+
+    h5 {
+        padding-bottom: 32px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-top: 48px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-top: 32px;
+            padding-bottom: 24px;
+        }
+    }
+
+    .intro-list {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        @media all and (max-width: $screen-md) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media all and (max-width: $mobile) {
+            grid-template-columns: 1fr;
+        }
+
+        li {
+            padding-bottom: 8px;
+
+            @media all and (max-width: $mobile) {
+                padding-bottom: 16px;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            .gatsby-image-wrapper {
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                margin-right: 24px;
+
+                @media all and (max-width: $mobile) {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 16px;
+                }
+            }
+            
+            img {
+                width: 55px;
+                height: 55px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-right: 24px;
+
+                @media all and (max-width: $mobile) {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

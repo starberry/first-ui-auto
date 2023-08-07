@@ -1,0 +1,31 @@
+@import '../../../../styles/inc/variable.css';
+
+.featured-properties-wrapper {
+    &.new-homes-details-properties-wrapper {
+        .property-details {
+            @include fontsize(32px);
+        }
+    
+        .slider-text {
+            @include fontsize(16px);
+
+            a {
+                @include fontsize(16px);
+            }
+        }
+
+        .featured-properties-slider {
+            .featured-properties-slide {
+                .featured-properties-text-wrapper {
+                    .address {
+                        font-family: var(--font-base);
+                        @include fontsize(16px);
+                        font-weight: var(--semi-bold);
+                        color: var(--color-dark6);
+                        line-height: var(--line-height-secondary);
+                    }
+                }
+            }
+        }
+    }
+}

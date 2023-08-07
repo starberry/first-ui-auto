@@ -1,0 +1,64 @@
+@import '../../../../styles/inc/variable.css';
+
+.faq-sidebar {
+    background-color: var(--color-white);
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16)) drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.08));
+
+    .faq-sidebar-content {
+        padding: 32px;
+
+        @media all and (max-width: $mobile) {
+            padding: 24px 16px;
+        }
+
+        h5 {
+            padding-bottom: 16px;
+        }
+
+        p {
+            @include fontsize(16px);
+            padding-bottom: 32px;
+        }
+
+        .faq-sidebar-form {
+            .faq-sidebar-form-group {
+                margin-bottom: 16px;
+
+                .form-label {
+                    font-family: var(--font-base);
+                    @include fontsize(14px);
+                    font-weight: var(--semi-bold);
+                    color: var(--colo-dark2);
+                    line-height: var(--line-height-secondary);
+                    margin-bottom: 8px;
+                }
+
+                .form-control {
+                    border: 1px solid var(--color-light-grey);
+                    border-radius: 2px;
+                    height: 48px;
+                }
+            }
+
+            .button {
+                height: 48px;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+
+            .faq-sidebar-form-text {
+                font-family: var(--font-base);
+                @include fontsize(14px);
+                font-weight: var(--normal);
+                color: var(--color-grey);
+                line-height: var(--line-height-secondary);
+
+                a {
+                    color: var(--color-grey);
+                    border-bottom: solid 1px var(--color-grey);
+                }
+            }
+        }
+    }
+}

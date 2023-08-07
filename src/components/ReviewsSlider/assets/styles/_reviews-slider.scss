@@ -1,0 +1,55 @@
+@import '../../../../styles/inc/variable.css';
+
+.reviews-slider-wrapper {
+    padding: 104px 0;
+
+    @media all and (max-width: $screen-lg) {
+        padding: 64px 0;
+    }
+
+    @media all and (max-width: $mobile) {
+        padding: 42px 0;
+    }
+
+    h2 {
+        padding-bottom: 24px;
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 16px;
+        }
+    }
+
+    .review-rating {
+        font-family: var(--font-base);
+        @include fontsize(18px);
+        font-weight: var(--normal);
+        color: var(--color-dark2);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 48px;
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+            padding-bottom: 32px;
+        }
+
+        span {
+            font-weight: var(--semi-bold);
+            color: var(--primary-color);
+        }
+    }
+
+    .reviews-from {
+        .reviews-text {
+            font-family: var(--font-base);
+            @include fontsize(16px);
+            font-weight: var(--normal);
+            color: var(--color-dark2);
+            line-height: var(--line-height-secondary);
+            margin-right: 24px;
+        }
+
+        img {
+            width: 120px;
+        }
+    }
+}

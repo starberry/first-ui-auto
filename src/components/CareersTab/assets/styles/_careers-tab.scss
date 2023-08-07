@@ -1,0 +1,61 @@
+@import '../../../../styles/inc/variable.css';
+
+.careers-tab-wrapper {
+    .careers-card-wrapper-main {
+        padding-bottom: 80px;
+        width: 100%;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 64px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-bottom: 40px;
+        }
+
+        .table {
+            margin-bottom: 0;
+
+            .tr, tr {
+                &:nth-of-type(odd) > *{
+                    --bs-table-accent-bg: var(--color-white2);
+                }
+
+                &:hover > * {
+                    --bs-table-accent-bg: var(--color-light-grey);
+                }
+
+                .td, td {
+                    font-family: var(--font-base);
+                    @include fontsize(16px);
+                    font-weight: var(--normal);
+                    color: var(--color-dark2);
+                    line-height: var(--line-height-secondary);
+                    padding: 24px 32px;
+                    border: 0;
+
+                    &.careers-title {
+                        @include fontsize(18px);
+                        font-weight: var(--semi-bold);
+                        color: var(--color-dark3);
+
+                        @media all and (max-width: $mobile) {
+                            @include fontsize(16px);
+                        }
+                    }
+
+                    a {
+                        @include fontsize(16px);
+                    }
+
+
+                    .careers-loc {
+                        @include fontsize(14px);
+                        font-weight: var(--normal);
+                        padding-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.read-more-wrap {
+    .read-more-section {
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+        line-height: 140%;
+
+        &::after {
+            transition: all 0.5s ease-in-out;
+        }
+    }
+
+    .read-more-button {
+        line-height: 100%;
+        transition: all 0.3s ease-in-out;
+        margin-top: 16px;
+        border-bottom: 1px solid;
+
+        &:hover {
+            border-bottom: 1px solid transparent;
+        }
+    }
+}

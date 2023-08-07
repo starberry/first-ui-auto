@@ -1,0 +1,139 @@
+@import '../../../../styles/inc/variable.css';
+
+.banner {
+    position: relative;
+
+    .banner-img {
+        position: absolute;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .overlay-bg {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-search-container {
+        position: relative;
+        z-index: 1;
+        padding-top: 391px;
+        padding-bottom: 109px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-top: 455px;
+            padding-bottom: 64px;
+        }
+
+        @media all and (max-width: $mobile) {
+            padding-top: 335px;
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            padding-bottom: 24px;
+        }
+
+        p {
+            font-family: var(--font-base);
+            @include fontsize(18px);
+            font-weight: var(--normal);
+            color: var(--color-white);
+            line-height: var(--line-height-secondary);
+            padding-bottom: 48px;
+
+            @media all and (max-width: $screen-lg) {
+                padding-bottom: 40px;
+            }
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(16px);
+                padding-bottom: 24px;
+            }
+        }
+
+        ul {
+            padding-bottom: 48px;
+
+            @media all and (max-width: $screen-lg) {
+                padding-bottom: 40px;
+            }
+
+            @media all and (max-width: $mobile) {
+                padding-bottom: 24px;
+            }
+
+            li {
+                margin-right: 24px;
+
+                @media all and (max-width: $mobile) {
+                    margin-right: 0;
+                    margin-bottom: 16px;
+                    width: 100%;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .button {
+                    @media all and (max-width: $mobile) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .google-reviews {
+            img {
+                width: 99px;
+            }
+
+            .reviews-text {
+                font-family: var(--font-base);
+                @include fontsize(16px);
+                font-weight: var(--semi-bold);
+                color: var(--color-white);
+                line-height: var(--line-height-secondary);
+                margin-left: 16px;
+            }
+        }
+    }
+
+    &.inner-page {
+        h1 {
+            @include fontsize(48px);
+
+            @media all and (max-width: $mobile) {
+                @include fontsize(32px);
+            }
+        }
+    }
+}
+
+.layout-padding-top {
+    .banner {
+        &.inner-page {
+            .banner-search-container {
+                padding-top: 199px;
+                padding-bottom: 104px;
+
+                @media all and (max-width: $screen-lg) {
+                    padding-top: 263px;
+                    padding-bottom: 64px;
+                }
+        
+                @media all and (max-width: $mobile) {
+                    padding-top: 144px;
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+}

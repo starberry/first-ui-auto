@@ -1,0 +1,82 @@
+@import '../../../../styles/inc/variable.css';
+
+.breadcrumb-module-wrapper {
+    border-top: solid 1px var(--color-light-grey);
+    border-bottom: solid 1px var(--color-light-grey);
+
+    .breadcrumb {
+        padding: 16px 0;
+        margin-bottom: 0;
+
+        @media all and (max-width: $mobile) {
+            padding: 10px 0;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+
+        a {
+            // border-bottom: solid 1px transparent;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                // border-bottom: solid 1px var(--color-dark2);
+            }
+        }
+
+        .breadcrumb-item {
+            font-family: var(--font-base);
+            @include fontsize(14px);
+            font-weight: var(--normal);
+            color: var(--color-dark2);
+            line-height: var(--line-height-secondary);
+            padding-left: 0;
+
+            @media all and (max-width: $mobile) {
+                white-space: nowrap;
+                display: flex;
+            }
+
+            &:first-child {
+                &::before {
+                    content: none;
+                }
+            }
+
+            &::before {
+                content: '';
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M5.5 3L10.5 8L5.5 13' stroke='%23787C83' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                background-size: 16px;
+                @include widthheight(16px, 16px);
+                margin-top: 1px;
+                margin-right: 8px;
+                margin-left: 8px;
+            }
+
+            &:first-child {
+                &::before {
+                    margin: 0;
+                }
+            }
+
+            a {
+                font-family: var(--font-base);
+                @include fontsize(14px);
+                font-weight: var(--normal);
+                color: var(--color-dark2);
+                line-height: var(--line-height-secondary);
+                border-bottom: solid 1px transparent;
+                @include transition(all .3s ease);
+
+                &:hover {
+                    border-bottom: 1px solid var(--color-dark2);
+                }
+            }
+
+            &.active {
+                padding-left: 0;
+            }
+        }
+    }
+}

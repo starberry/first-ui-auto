@@ -1,0 +1,22 @@
+@import '../../../../styles/inc/variable.css';
+
+.areaguide-desc-wrapper {
+    padding-top: 72px;
+    padding-bottom: 24px;
+
+    .inner-detail-desc {
+        p {
+            &:first-of-type {
+                padding-top: 0;
+            }
+        }
+    }
+
+    .areaguide-share {
+        .social-share-wrapper {
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+}

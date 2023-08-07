@@ -1,0 +1,358 @@
+@import '../../../../styles/inc/variable.css';
+
+.filter-search-dubai-wrapper {
+    background-color: var(--search-filter-dubai-bg-color);
+    padding: 12px 0;
+    // @include transition(all .3s ease-in-out);
+
+    &.filter-scrolled {
+        z-index: 1035;
+        // top: 135px;
+
+        // @media all and (max-width: $screen-lg8) {
+        //     top: 95px;
+        // }
+
+        // @media all and (max-width: $mobile) {
+        //     top: 72px;
+        // }
+    }
+
+    .filter-search-features {
+        &.filter-show {
+            padding: 12px 0;
+        }
+
+        .search-box {
+            padding: 0 32px 0 0;
+            // padding-right: 40px;
+
+            @media all and (max-width: $screen-lg8) {
+                padding: 0;
+                padding-right: 10px;
+            }
+
+            @media all and (max-width: $mobile) {
+                display: none;
+            }
+
+            &.mobile-filter-show {
+                padding: 0;
+
+                .mysuggestform-wrapper {
+                    width: 100%;
+                }
+
+                @media all and (max-width: $mobile) {
+                    display: block;
+                }
+            }
+
+            input {
+                border: 0;
+                border-radius: 2px;
+                padding: 13px 16px;
+                min-width: 400px;
+
+                @media all and (max-width: $screen-3xl) {
+                    min-width: 250px;
+                }
+
+                @media all and (max-width: $screen-lg8) {
+                    min-width: 230px;
+                }
+
+                @media all and (max-width: $screen-lg8) {
+                    min-width: 350px;
+                }
+
+                &::placeholder {
+                    color: var(--color-dark2);
+                }
+
+                &:hover, &:focus {
+                    box-shadow: none;
+                }
+
+                &:-webkit-autofill {
+                    box-shadow: 0 0 0px 1000px var(--search-filter-area-bg-color) inset;
+                }
+            }
+        }
+
+        .search-divider {
+            border-right: 1px solid var(--search-divider-dubai-color);
+            height: 40px;
+            margin-left: 24px;
+            margin-right: 24px;
+
+            @media all and (max-width: $screen-3xl) {
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+        }
+
+        .dropdown-select {
+            .select-control {
+                min-width: 105px;
+
+                @media all and (max-width: $screen-3xl) {
+                    width: 120px;
+                }
+
+                .react-select__menu {
+                    .react-select__option {
+                        color: var(--search-dropdown-text-dubai-color);
+            
+                        &:hover {
+                            color: var(--search-dropdown-selected-text-dubai-color);
+                            background-color: var(--search-dropdown-bg-dubai-focused-color);
+                        }
+
+                        &.react-select__option--is-focused {
+                            color: var(--search-dropdown-selected-text-dubai-color);
+                            background-color: var(--search-dropdown-bg-dubai-focused-color);
+                        }
+
+                        &.react-select__option--is-selected {
+                            color: var(--search-dropdown-selected-text-dubai-color);
+                            background-color: var(--search-dropdown-bg-dubai-selected-color);
+                        }
+                    }
+                }
+
+                .react-select__control {
+                    .react-select__value-container {
+                        .react-select__single-value {
+                            color: var(--color-white);
+                        }
+                    }
+                }
+            }
+
+            &.buy-dropdown {
+                .select-control {
+                    width: 65px;
+                    min-width: 70px;
+
+                    @media all and (max-width: $screen-2xl) {
+                        width: 65px;
+                    }
+                }
+            }
+
+            &.bed-dropdown {
+                .select-control {
+                    width: 110px;
+
+                    @media all and (max-width: $screen-2xl) {
+                        width: 110px;
+                    }
+                }
+            }
+
+            &.price-dropdown {
+                .select-control {
+                    @media all and (max-width: $screen-2xl) {
+                        width: 105px;
+                    }
+                }
+            }
+
+            &.property-dropdown {
+                .select-control {
+                    width: 140px;
+
+                    @media all and (max-width: $screen-2xl) {
+                        width: 110px;
+                    }
+                }
+            }
+
+            &.more-filters {
+                border-radius: 2px;
+                background-color: var(--color-white);
+                margin-bottom: 24px;
+                padding: 5px 0;
+
+                .select-control {
+                    width: 100%;
+
+                    .react-select__menu {
+                        top: 40px;
+                    }
+
+                    .react-select__value-container {
+                        padding-left: 16px;
+
+                        .react-select__single-value {
+                            color: var(--color-dark2);
+                        }
+                    }
+
+                    .react-select__indicators {
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+
+        .search-more-filters {
+            .more-filters-btn {
+                font-family: var(--font-base);
+                @include fontsize(16px);
+                font-weight: var(--normal);
+                color: var(--color-white);
+                line-height: var(--line-height-secondary);
+    
+                i {
+                    margin-left: 8px;
+                }
+            }
+
+            @media all and (max-width: $mobile) {
+                display: none;
+            }
+        }
+
+        .search-btn-wrapper {
+            padding-left: 40px;
+
+            @media all and (max-width: $screen-lg8) {
+                padding-left: 0;
+            }
+            
+            .button {
+                height: 48px;
+            }
+
+            &.search-btn-mobile {
+                @media all and (max-width: $screen-lg8) {
+                    padding-left: 0;
+                }
+
+                .button {
+                    width: 100%;
+                }
+
+                @media all and (max-width: $mobile) {
+                    display: block;
+                }
+            }
+
+            @media all and (max-width: $mobile) {
+                display: none;
+            }
+        }
+
+        .filter-results-wrapper {
+            width: 100%;
+            padding: 12px 0;
+
+            .search-box {
+                padding-right: 0;
+                margin-bottom: 24px;
+
+                input {
+                    min-width: auto;
+                }
+            }
+
+            .search-btn-wrapper {
+                padding-left: 0;
+
+                .button {
+                    width: 100%;
+                }
+            }
+        }
+
+        .more-filters-btn-list {
+            width: 100%;
+
+            li {
+                width: 100%;
+                margin-right: 16px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .more-filters-btn-mobile {
+                width: 100%;
+
+                .more-filters-btn {
+                    font-family: var(--font-base);
+                    @include fontsize(16px);
+                    font-weight: var(--semi-bold);
+                    color: var(--color-white);
+                    line-height: var(--line-height-secondary);
+                    border: 1px solid #FFFFFF;
+                    border-radius: 2px;
+                    padding: 12px 32px;
+                    width: 100%;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        .mobile-filter-show {
+            @media all and (max-width: $screen-lg8) {
+                margin-bottom: 24px;
+            }
+            @media all and (max-width: $mobile) {
+                margin-bottom: 12px;
+            }
+        }
+
+        .mobile-filter {
+            @media all and (max-width: $screen-lg8) {
+                border-radius: 2px;
+                background-color: var(--color-white);
+                margin-bottom: 24px;
+                padding: 5px 0;
+            }
+            @media all and (max-width: $mobile) {
+                margin-bottom: 12px;
+            }
+
+            .select-control {
+                @media all and (max-width: $screen-lg8) {
+                    width: 100% !important;
+                }
+
+                .react-select__menu {
+                    @media all and (max-width: $screen-lg8) {
+                        top: 40px;
+                    }
+                }
+
+                .react-select__value-container {
+                    @media all and (max-width: $screen-lg8) {
+                        padding-left: 16px;
+                    }
+
+                    .react-select__single-value {
+                        @media all and (max-width: $screen-lg8) {
+                            color: var(--color-dark2) !important;
+                        }
+                    }
+                }
+
+                .react-select__indicators {
+                    @media all and (max-width: $screen-lg8) {
+                        padding-right: 20px;
+                    }
+                }
+            }
+
+            @media all and (max-width: $screen-lg8) {
+                display: none;
+            }
+        }
+    }
+}

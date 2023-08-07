@@ -1,0 +1,65 @@
+@import '../../../../styles/inc/variable.css';
+
+.team-detail-intro-wrapper {
+    h1 {
+        color: var(--color-dark3);
+        @include fontsize(48px);
+        padding-bottom: 16px;
+
+        @media all and (max-width: $screen-lg) {
+            @include fontsize(40px);
+        }
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(32px);
+        }
+    }
+
+    .team-detail-position {
+        font-family: var(--font-base);
+        @include fontsize(18px);
+        font-weight: var(--normal);
+        color: var(--color-grey);
+        line-height: var(--line-height-secondary);
+        padding-bottom: 24px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 40px;
+        }
+
+        @media all and (max-width: $mobile) {
+            @include fontsize(16px);
+            padding-bottom: 24px;
+        }
+    }
+
+    ul {
+        padding-bottom: 24px;
+
+        @media all and (max-width: $screen-lg) {
+            padding-bottom: 16px;
+        }
+
+        li {
+            margin-right: 24px;
+
+            &:not(:last-child) {
+                margin-right: 24px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .button {
+        @include fontsize(16px);
+        height: 48px;
+        width: 199px;
+
+        i {
+            margin-right: 9px;
+        }
+    }
+}

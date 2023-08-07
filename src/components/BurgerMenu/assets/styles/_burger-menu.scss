@@ -1,0 +1,175 @@
+@import '../../../../styles/inc/variable.css';
+
+.burger-menu {
+    .burger-menu-list {
+        li {
+            padding: 24px 0;
+            border-bottom: solid 1px var(--color-light-grey);
+
+            &:last-child {
+                border-bottom: 0;
+                // padding-top: 0;
+            }
+
+            a {
+                font-family: var(--font-secondary);
+                @include fontsize(40px);
+                font-weight: var(--normal);
+                color: var(--color-dark3);
+                line-height: var(--line-height-primary);
+
+                &:hover {
+                    color: var(--primary-color);
+                }
+
+                @media all and (max-width: $screen-lg) {
+                    @include fontsize(32px);
+                }
+
+                @media all and (max-width: $mobile) {
+                    @include fontsize(24px);
+                }
+            }
+        }
+    }
+
+    .burger-menu-accordion {
+        .accordion-item {
+            background-color: transparent;
+            border: 0;
+            padding: 24px 0;
+            border-bottom: solid 1px var(--color-light-grey);
+
+            &:last-of-type {
+                border: 0;
+                padding: 0;
+            }
+
+            .accordion-header {
+                .accordion-button {
+                    background-color: transparent;
+                    padding: 0;
+                    border-color: transparent;
+                    margin-bottom: 24px;
+                    box-shadow: none;
+                    border-radius: 0;
+
+                    a {
+                        font-family: var(--font-secondary);
+                        @include fontsize(40px);
+                        font-weight: var(--normal);
+                        color: var(--color-dark3);
+                        line-height: var(--line-height-primary);
+
+                        &:hover {
+                            color: var(--primary-color);
+                        }
+
+                        @media all and (max-width: $screen-lg) {
+                            @include fontsize(32px);
+                        }
+    
+                        @media all and (max-width: $mobile) {
+                            @include fontsize(24px);
+                        }
+                    }
+
+                    &.collapsed {
+                        margin-bottom: 0;
+                        
+                        &::after {
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M12 3V21M21 12L3 12' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                            @include widthheight(24px, 24px);
+                            background-size: 24px;
+                        }
+                    }
+
+                    &::after {
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21 12L3 12' stroke='%23081D3C' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                        @include widthheight(24px, 24px);
+                        background-size: 24px;
+                    }
+
+                    &:hover, &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+                }
+            }
+
+            .accordion-body {
+                padding: 0;
+
+                .inner-burger-menu-list {
+                    li {
+                        border-bottom: 0;
+                        padding-bottom: 8px;
+                        padding-top: 0;
+
+                        a {
+                            font-family: var(--font-base);
+                            @include fontsize(18px);
+                            font-weight: var(--normal);
+                            color: var(--color-dark2);
+                            line-height: var(--line-height-secondary);
+
+                            &:hover {
+                                color: var(--primary-color);
+                            }
+
+                            @media all and (max-width: $mobile) {
+                                @include fontsize(16px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-dubai {
+    .burger-menu {
+        .burger-menu-list {
+            li {
+                border-bottom: solid 1px var(--color-dubai-dark-light);
+
+                a {
+                    color: var(--color-white);
+                }
+            }
+        }
+
+        .burger-menu-accordion {
+            .accordion-item {
+                .accordion-header {
+                    .accordion-button {
+                        a {
+                            color: var(--color-white);
+                        }
+
+                        &.collapsed {                            
+                            &::after {
+                                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M12 3V21M21 12L3 12' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                            }
+                        }
+    
+                        &::after {
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M21 12L3 12' stroke='%23ffffff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+                        }
+                    }
+                }
+
+                .accordion-body {    
+                    .inner-burger-menu-list {
+                        li {    
+                            a {
+                                color: var(--color-white);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
